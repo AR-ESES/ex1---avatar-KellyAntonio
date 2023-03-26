@@ -1,1 +1,27 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10576267&assignment_repo_type=AssignmentRepo)
+let posX;
+let posY;
+function setup() {
+	createCanvas(windowWidth, windowHeight);
+	// put setup code here
+}
+
+function draw() {
+ posX = width/2;
+ posY = height/2;
+	noFill();
+	background(255,105,180);
+ stroke(255);
+ strokeWeight(2);
+ circle(posX,posY,height/2);
+circle(posX- height/3/4,posY- height/3/4, height/12);
+circle(posX+ height/3/4,posY - height/3/4, height/12);
+circle(posX+ height/12/20,posY - height/12/20, height/20);
+circle(posX,posY,height/2);
+circle(posX+ height/14/10,posY - height/14/10, height/10);
+circle(posX, posY+100,70,50);
+circle(posX, posY +280,250,60);
+line(posX- 80, posY+80);
+
+
+
+}
